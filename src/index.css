@@ -1,0 +1,52 @@
+/*-- Simple CSS Reset -- */
+
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+
+/* -- Body styles -- */
+
+
+body {
+	background-color: black;
+	color:#667073;
+	font: 16px/1.3 'Arial',sans-serif;
+}
+
+html, body {
+	height: 100%;
+}
+
+
+/* General */
+
+.pull-right{
+	float:right !important;
+}
+
+
+
+/* Page stuff */
+
+.bottom{
+	height: 7em;
+	background-color: black;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+
+}
+.bottom div{
+	border: 0.2em solid green;
+	height: 100%;
+}
+
+
+
+#root, #root > div, .content, .page{
+	height: 100%;
+    overflow: auto;
+}

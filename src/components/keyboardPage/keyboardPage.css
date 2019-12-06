@@ -1,0 +1,49 @@
+
+
+/* Keyboard page */
+
+#keyboardPage .center{
+	height: 50%;
+    /* height: 300px; */
+    /* margin: auto; */
+    text-align: center;
+    position: relative;
+}
+
+#keyboardPage .center input,
+#keyboardPage .center p
+{
+	bottom: 0;
+	position: absolute;
+
+    padding: 10px;
+    border-radius: 5px;
+	width: 30em;
+	margin-left: -15em;
+}
+#keyboardPage .center p
+{
+bottom: 45px;
+    font-size: 5em;
+    margin-left: auto;
+    /* left: 0; */
+    text-align: left;
+}
+
+#keyboardPage .center button{
+	bottom: 45px;
+	position: absolute;
+
+    padding: 10px;
+    border-radius: 5px;
+	width: 10em;
+	margin-left: -15em;
+}
+
+
+#volumeDown{
+	margin-left: 5.5em !important;
+}
+#volumeMute{
+	margin-left: -4.9em !important;
+}

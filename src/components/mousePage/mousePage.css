@@ -1,0 +1,22 @@
+
+
+#leftClick{
+	float:left;
+	width: 40%;
+}
+
+#rightClick{
+	float:right;
+	width: 40%;
+}
+
+.wheelClick{
+	width: 15%;
+	float: left;
+}
+#wheelClickUp{
+	height: 3.1em;
+}
+#wheelClickDown{
+	height: 3.1em;
+}
